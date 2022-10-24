@@ -11,7 +11,7 @@ const Banner = () => {
     const setFormHandler = ()=>{
         setShowForm(true)
     }
-    const my_token = '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';
+    const my_token = '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';
     const searchUserHandler = async (enterUserToSearch) => {
         const response = await fetch(`https://api.github.com/users/${enterUserToSearch} `,{
             'headers': {
